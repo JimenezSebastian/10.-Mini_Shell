@@ -1,7 +1,7 @@
 #ifndef MINISHELL_H
 #define MINISHELL_H
 
-#include "../libft/libft.h"
+#include "../libft/include/libft.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -97,7 +97,7 @@ int unsetenv_in_env(char ***my_env, const char *var);
 void free_env(char **my_env);
 void print_env_export(char **env);
 int  is_valid_identifier(const char *str); 
-
+int ft_strcmp(const char *s1, const char *s2);
 
 /* Capas menos operables*/
 

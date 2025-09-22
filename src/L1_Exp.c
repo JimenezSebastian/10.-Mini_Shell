@@ -1,5 +1,5 @@
 #include "../include/minishell.h"
-
+/*
 void ft_expans(char *str, char **env)
 {
     char *new;
@@ -13,5 +13,6 @@ void ft_expans(char *str, char **env)
         i++;
     if (env[i])
         new = ft_strdup(env[i]);
-    return (new)
+    return (new);
 }
+*/
